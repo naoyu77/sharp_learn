@@ -1,6 +1,11 @@
 node_modules/
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.webp
+
+# ルートの画像ファイルは除外（sample_photo.jpg以外）
+/*.png
+/*.jpg
+/*.jpeg
+/*.gif
+/*.webp
+
+# sample_photo.jpgは含める
+!sample_photo.jpg
